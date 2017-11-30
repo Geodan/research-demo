@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF8">
+<script src="./bower_components/d3/d3.js" charset="utf-8"></script>
+<script src="./bower_components/topojson/topojson.js"></script>
+<script src="./bower_components/d3-plugins/geo/tile/tile.js"></script>
+<script src="./bower_components/d3.mappu/dist/d3.mappu.js"></script>
+
+<style>
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+path {
+  fill: none;
+  stroke: red;
+  stroke-linejoin: round;
+  
+}
+
+#header {
+	position: relative;
+	height: 10%;
+	width: 100%;
+	background: green;
+}
+
+#content {
+	position: relative;
+	height: 90%;
+	width: 100%;
+}
+#leftbar {
+	position: absolute;
+	height: 100%;
+	width: 100px;
+	background: red;
+}
+
+#map {
+  position: absolute;
+  margin: 0 auto;
+  overflow: hidden;
+  left: 100px;
+  height: 100%;
+  right: 0px;
+}
+
+.tile {
+  position: absolute;
+}
+
+.tile.loading {
+  display: none;
+}
+
+/**
+Layer styling happens in CSS, or in a per-feature function
+**/
+.mylayer {
+    fill: steelBlue;
+    fill-opacity: 0.4;
+    stroke: steelBlue;
+}
+
+.coordinates {
+    font-size: 8pt;
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+}
+
+.popover {
+    position: absolute;
+    background: white;
+}
+
+</style>
+
+</head>
+<body>
+<div id="header">Header</div>
+<div id="content">
+	<div id="leftbar">leftbar</div>
+	<div id='map'></div>
+</div>
+<!--
+<script src="../src/d3.dev/d3.geo.raster.js"></script>
+<script src="../src/d3.dev/d3.quadtiles.js"></script>
+-->
+<script>
+  
+var map = new d3.mappu.Map('map', {
+        center: [6,52],
+        zoom: 16,
+        minZoom: 16,
+        maxZoom: 16,
+        projection: d3.geo.mercator()
+});
+
+//var coords = new d3.mappu.Coordinates().addTo(map);
+
+var layer = new d3.mappu.RasterLayer('layer1', {
+    ogc_type: 'tms',
+    url: "http://{s}.tiles.mapbox.com/v3/examples.map-i86nkdio/{z}/{x}/{y}.png"
+}).addTo(map);
+
+var laag1 = new d3.mappu.RasterLayer('pico:pc6_gas_sjv_verwacht', {
+    ogc_type: 'wms',
+    url: "http://geodata.nationaalgeoregister.nl/kadastralekaart/wms?",
+    layers: 'grens'
+})//.addTo(map);
+    
+//var controllers = d3.mappu.Controllers(map);
+
+var mylayer = new d3.mappu.VectorLayer('mylayer',{
+    reproject: false,
+    events: [{
+        event: 'mouseover',
+        action: function(){
+            var opac = d3.select(this).style('opacity');
+            var fill = d3.select(this).style('fill');
+            d3.select(this).style('opacity',0.3).style('fill','#FF0033')
+                .transition().style('opacity', opac).style('fill',fill);
+        }
+      },{
+        event: 'click',
+        action: function(){
+            d3.selectAll('.popover').remove();
+            var element = document.getElementById('map');
+            var loc = d3.mouse(element);
+            d3.select('#map').append('div').classed('popover', true)
+                .style('left', loc[0]+'px')
+                .style('top', loc[1]+'px')
+                .html('Info goes here....');
+        }
+    }]
+}).addTo(map);
+
+d3.json("provincie_4326.topojson", function(error, data) {
+  if (error) return console.error(error);
+  var counter = 0;
+  var feats = topojson.feature(data, data.objects.provincie_4326).features;
+  feats.forEach(function(d){
+		  d.id = 'id' + counter++;
+  });
+  mylayer.data = feats;
+});
+
+</script>
+
+</body>
+</html>

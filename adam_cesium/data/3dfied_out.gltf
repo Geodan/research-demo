@@ -1,0 +1,656 @@
+{
+  "accessors": {
+    "accessor_index_0": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 0,
+      "byteStride": 0,
+      "componentType": 5125,
+      "count": 16929,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        5682
+      ]
+    },
+    "accessor_index_1": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 67716,
+      "byteStride": 0,
+      "componentType": 5125,
+      "count": 223317,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        115136
+      ]
+    },
+    "accessor_index_2": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 960984,
+      "byteStride": 0,
+      "componentType": 5125,
+      "count": 77808,
+      "type": "SCALAR",
+      "min": [
+        526
+      ],
+      "max": [
+        28112
+      ]
+    },
+    "accessor_index_3": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 1272216,
+      "byteStride": 0,
+      "componentType": 5125,
+      "count": 236070,
+      "type": "SCALAR",
+      "min": [
+        861
+      ],
+      "max": [
+        75604
+      ]
+    },
+    "accessor_index_4": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 2216496,
+      "byteStride": 0,
+      "componentType": 5125,
+      "count": 83736,
+      "type": "SCALAR",
+      "min": [
+        17422
+      ],
+      "max": [
+        107885
+      ]
+    },
+    "accessor_index_5": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 2551440,
+      "byteStride": 0,
+      "componentType": 5125,
+      "count": 2256,
+      "type": "SCALAR",
+      "min": [
+        6718
+      ],
+      "max": [
+        108108
+      ]
+    },
+    "accessor_index_6": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 2560464,
+      "byteStride": 0,
+      "componentType": 5125,
+      "count": 24201,
+      "type": "SCALAR",
+      "min": [
+        697
+      ],
+      "max": [
+        114106
+      ]
+    },
+    "accessor_index_7": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 2657268,
+      "byteStride": 0,
+      "componentType": 5125,
+      "count": 2910,
+      "type": "SCALAR",
+      "min": [
+        861
+      ],
+      "max": [
+        115142
+      ]
+    },
+    "accessor_position": {
+      "bufferView": "bufferView_0",
+      "byteOffset": 0,
+      "byteStride": 0,
+      "componentType": 5126,
+      "count": 115143,
+      "min": [
+        -93.7249984741211,
+        -6.090000152587891,
+        -551.677001953125
+      ],
+      "max": [
+        1161.238037109375,
+        35.33000183105469,
+        528.8679809570312
+      ],
+      "type": "VEC3"
+    },
+    "accessor": {
+      "bufferView": "bufferView_0",
+      "byteOffset": 1381716,
+      "byteStride": 0,
+      "componentType": 5126,
+      "count": 115143,
+      "type": "VEC3",
+      "min": [
+        -0.9336006045341492,
+        0,
+        -0.9131619930267334
+      ],
+      "max": [
+        0.8887194395065308,
+        1,
+        1
+      ]
+    }
+  },
+  "asset": {
+    "generator": "OBJ2GLTF",
+    "premultipliedAlpha": true,
+    "profile": {
+      "api": "WebGL",
+      "version": "1.0"
+    },
+    "version": "1.0"
+  },
+  "buffers": {
+    "3dfied_out_buffer": {
+      "type": "arraybuffer",
+      "byteLength": 5432340,
+      "uri": "3dfied_out_buffer.bin"
+    }
+  },
+  "bufferViews": {
+    "bufferView_0": {
+      "buffer": "3dfied_out_buffer",
+      "byteLength": 2763432,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    "bufferView_1": {
+      "buffer": "3dfied_out_buffer",
+      "byteLength": 2668908,
+      "byteOffset": 2763432,
+      "target": 34963
+    }
+  },
+  "images": {},
+  "materials": {
+    "material_Building": {
+      "name": "Building",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0.87,
+          0.26,
+          0.28,
+          1
+        ],
+        "diffuse": [
+          0.87,
+          0.26,
+          0.28,
+          1
+        ],
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.87,
+          0.26,
+          0.28,
+          1
+        ],
+        "shininess": 60,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_Terrain": {
+      "name": "Terrain",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0.9,
+          0.9,
+          0.75,
+          1
+        ],
+        "diffuse": [
+          0.9,
+          0.9,
+          0.75,
+          1
+        ],
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.9,
+          0.9,
+          0.75,
+          1
+        ],
+        "shininess": 60,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_Road": {
+      "name": "Road",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0.6,
+          0.6,
+          0.6,
+          1
+        ],
+        "diffuse": [
+          0.6,
+          0.6,
+          0.6,
+          1
+        ],
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.6,
+          0.6,
+          0.6,
+          1
+        ],
+        "shininess": 60,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_Water": {
+      "name": "Water",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0.35,
+          0.65,
+          0.9,
+          1
+        ],
+        "diffuse": [
+          0.35,
+          0.65,
+          0.9,
+          1
+        ],
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.35,
+          0.65,
+          0.9,
+          1
+        ],
+        "shininess": 60,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_Forest": {
+      "name": "Forest",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0.34,
+          0.7,
+          0.35,
+          1
+        ],
+        "diffuse": [
+          0.34,
+          0.7,
+          0.35,
+          1
+        ],
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.34,
+          0.7,
+          0.35,
+          1
+        ],
+        "shininess": 60,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_VerticalWalls": {
+      "name": "VerticalWalls",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0.85,
+          0.85,
+          0.85,
+          1
+        ],
+        "diffuse": [
+          0.85,
+          0.85,
+          0.85,
+          1
+        ],
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.85,
+          0.85,
+          0.85,
+          1
+        ],
+        "shininess": 60,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_Separation": {
+      "name": "Separation",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0.32,
+          0.16,
+          0.4,
+          1
+        ],
+        "diffuse": [
+          0.32,
+          0.16,
+          0.4,
+          1
+        ],
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.32,
+          0.16,
+          0.4,
+          1
+        ],
+        "shininess": 60,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    },
+    "material_Bridge": {
+      "name": "Bridge",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0.8,
+          0.6,
+          0.2,
+          1
+        ],
+        "diffuse": [
+          0.8,
+          0.6,
+          0.2,
+          1
+        ],
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.8,
+          0.6,
+          0.2,
+          1
+        ],
+        "shininess": 60,
+        "transparency": 1
+      },
+      "technique": "technique0"
+    }
+  },
+  "meshes": {
+    "mesh_3dfied_out": {
+      "name": "3dfied_out",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor"
+          },
+          "indices": "accessor_index_0",
+          "material": "material_Water",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor"
+          },
+          "indices": "accessor_index_1",
+          "material": "material_VerticalWalls",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor"
+          },
+          "indices": "accessor_index_2",
+          "material": "material_Terrain",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor"
+          },
+          "indices": "accessor_index_3",
+          "material": "material_Road",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor"
+          },
+          "indices": "accessor_index_4",
+          "material": "material_Building",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor"
+          },
+          "indices": "accessor_index_5",
+          "material": "material_Forest",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor"
+          },
+          "indices": "accessor_index_6",
+          "material": "material_Separation",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor"
+          },
+          "indices": "accessor_index_7",
+          "material": "material_Bridge",
+          "mode": 4
+        }
+      ]
+    }
+  },
+  "nodes": {
+    "rootNode": {
+      "children": [],
+      "meshes": [
+        "mesh_3dfied_out"
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "samplers": {},
+  "scene": "scene_3dfied_out",
+  "scenes": {
+    "scene_3dfied_out": {
+      "nodes": [
+        "rootNode"
+      ]
+    }
+  },
+  "textures": {},
+  "extensionsUsed": [],
+  "animations": {},
+  "cameras": {},
+  "techniques": {
+    "technique0": {
+      "attributes": {
+        "a_position": "position",
+        "a_normal": "normal"
+      },
+      "parameters": {
+        "modelViewMatrix": {
+          "semantic": "MODELVIEW",
+          "type": 35676
+        },
+        "projectionMatrix": {
+          "semantic": "PROJECTION",
+          "type": 35676
+        },
+        "normalMatrix": {
+          "semantic": "MODELVIEWINVERSETRANSPOSE",
+          "type": 35675
+        },
+        "ambient": {
+          "type": 35666
+        },
+        "diffuse": {
+          "type": 35666,
+          "semantic": "_3DTILESDIFFUSE"
+        },
+        "emission": {
+          "type": 35666
+        },
+        "specular": {
+          "type": 35666
+        },
+        "shininess": {
+          "type": 5126
+        },
+        "transparency": {
+          "type": 5126
+        },
+        "position": {
+          "semantic": "POSITION",
+          "type": 35665
+        },
+        "normal": {
+          "semantic": "NORMAL",
+          "type": 35665
+        }
+      },
+      "program": "program0",
+      "states": {
+        "enable": [
+          2884,
+          2929
+        ]
+      },
+      "uniforms": {
+        "u_modelViewMatrix": "modelViewMatrix",
+        "u_projectionMatrix": "projectionMatrix",
+        "u_normalMatrix": "normalMatrix",
+        "u_ambient": "ambient",
+        "u_diffuse": "diffuse",
+        "u_emission": "emission",
+        "u_specular": "specular",
+        "u_shininess": "shininess",
+        "u_transparency": "transparency"
+      }
+    }
+  },
+  "programs": {
+    "program0": {
+      "attributes": [
+        "a_position",
+        "a_normal"
+      ],
+      "fragmentShader": "fragmentShader0",
+      "vertexShader": "vertexShader0"
+    }
+  },
+  "shaders": {
+    "vertexShader0": {
+      "type": 35633,
+      "uri": "vertexShader0.glsl"
+    },
+    "fragmentShader0": {
+      "type": 35632,
+      "uri": "fragmentShader0.glsl"
+    }
+  },
+  "skins": {},
+  "extensions": {}
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wind Turbine Planner - Demo</title>
+    <link rel="stylesheet" href="https://openlayers.org/en/v4.4.1/css/ol.css" type="text/css"/>
+    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <script src="https://openlayers.org/en/v4.4.1/build/ol.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.4.4/proj4.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /-->
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <div id="heading">
+        <div id = "heading_title">Wind Turbine Planner - demo</div>
+        Deze demo berekent de hoeveelheid energie die een bepaald type windturbine in een gemiddeld jaar produceert. De berekening wordt uitgevoerd op basis van de kenmerken van specifieke windturbines en weergegevens. Voor meer informatie over deze gegevens of de berekening, kunt u natuurlijk contact met ons opnemen (steven.fruijtier@geodan.nl).
+    </div>
+    
+    <div id="map"></div>
+    <div id="wtlist">
+    <form class="form-inline">
+      <label>Wind Turbine type</label>
+      <select id="wttype">
+      </select>
+    </form>
+    </div>
+    <!--div id="info">No windturbine placed</div-->
+    <div id="info">
+        <table id = "resulttable">
+            <tr id="caption"> <td>Windturbine</td> <td>Coordinates</td> <td>Energy yield</td> <td>Rated power</td> <td>Capacity factor</td> <td>Households</td></tr>
+            <tr id="resultrow"> <td id = "type"/> <td id = "coordinates"/> <td id = "energy"/> <td id= "power"/> <td id = "factor"/> <td id = "households"/></tr>
+        </table>
+    </div>
+    
+    
+    <!--script src="https://openlayers.org/en/v4.4.1/build/ol.js"></script-->
+    <script src="script.js"></script>
+    <script>
+    
+    /* Fill windturbine dropdown */
+    fillWTbox();
+    function fillWTbox() {
+            var xurl = "http://research.geodan.nl/cgi-py/wtservice.py?operation=getWindTurbines"
+            $.getJSON(xurl, function(data) {
+                var dp = document.getElementById("wttype");
+                $.each(data, function(i, wt) {
+                    var option = document.createElement("option");
+                    option.text = wt.name;
+                    option.value = wt.name;
+                    dp.add(option);
+                });
+            });
+    };
+
+    var point_style = new ol.style.Style({
+          image: new ol.style.Circle({
+            fill: new ol.style.Fill({
+              color: '#D5D5D5'
+            }),
+            radius: 5,
+            stroke: new ol.style.Stroke({
+              color: '#D5D5D5',
+              width: 1
+            })
+          })
+        });
+   
+    
+    /* ADD DRAW */
+      var draw; // global so we can remove it later
+      function addInteraction() {
+        //var value = typeSelect.value;
+        var value = 'Point';
+        if (value !== 'None') {
+          draw = new ol.interaction.Draw({
+            source: source,
+            type:  /** @type {ol.geom.GeometryType} */ 'Point', //(typeSelect.value)
+            style:point_style
+          });
+          this.draw.on('drawend', onDrawEnd);
+          map.addInteraction(draw);
+        }
+      }
+      
+      var coords = []; 
+      function onDrawEnd(evt) {
+            var i = 0
+            i = i
+            feature = evt.feature
+            coords = feature.getGeometry().getCoordinates();
+            getWindturbineData();
+      };
+      
+      function getWindturbineData() {
+                  //infoBox.innerHTML = "[" + coords[0] + "," + + coords[1] + "]" + " " + typeSelect.value
+            x = coords[0]
+            y = coords[1]
+            type = typeSelect.value
+            // http://research.geodan.nl/cgi-py/wtservice.py?x=200000&y=200000&type=Enercon_R48_60m
+            var xurl = "http://research.geodan.nl/cgi-py/wtservice.py?x="+x+"&y="+y+"&type="+type
+            $.getJSON(xurl, function(data) {
+                //infoBox.innerHTML = data.type + " at: [" + data.x.toFixed(0) + " " + data.y.toFixed(0) + "] yields: " + (data.energy/1000).toFixed(0) + " kW (Potential: " + (data.power/1000).toFixed(0) + " kW => expected capacityfactor: " + (100*(data.energy/data.power)).toFixed(0) + "%)"
+                //infoBox.innerHTML = "Windturbine: "data.type + " at: [" + data.x.toFixed(0) + " " + data.y.toFixed(0) + "] yields: " + (data.energy/1000).toFixed(0) + " kW (Potential: " + (data.power/1000).toFixed(0) + " kW => expected capacityfactor: " + (100*(data.energy/data.power)).toFixed(0) + "%)"
+                document.getElementById('type').innerHTML=data.type
+                document.getElementById('coordinates').innerHTML=data.x.toFixed(0) + "," + data.y.toFixed(0)
+                document.getElementById('energy').innerHTML=(data.energy/1000).toFixed(0) + " kW"
+                document.getElementById('power').innerHTML=(data.power/1000).toFixed(0)  + " kW"
+                document.getElementById('factor').innerHTML=(100*(data.energy/data.power)).toFixed(0) + " %"
+                document.getElementById('households').innerHTML=(data.households).toFixed(0)  + ""
+            });
+      }
+      
+    
+      addInteraction();
+      
+      
+      /* ADD TYPES */
+      var typeSelect = document.getElementById('wttype');
+      var wttype = typeSelect.value;
+      /**
+       * Handle change event.
+       */
+      typeSelect.onchange = function() {
+        wttype = typeSelect.value;
+        if (coords.length==2) {
+            getWindturbineData();
+            }
+      };
+      
+    </script>
+  </body>
+  
+</html>

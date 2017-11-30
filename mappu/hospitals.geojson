@@ -1,0 +1,2467 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2015-04-13T14:33:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/29797443",
+      "properties": {
+        "@id": "node/29797443",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Hofpoort",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.891465,
+          52.0798964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/31381726",
+      "properties": {
+        "@id": "node/31381726",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Erasmus Medisch Centrum",
+        "wikipedia": "nl:Erasmus MC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4676238,
+          51.911153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/70940028",
+      "properties": {
+        "@id": "node/70940028",
+        "amenity": "hospital",
+        "created_by": "JOSM",
+        "name": "Elkerliek Ziekenhuis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6420911,
+          51.4818011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/206392665",
+      "properties": {
+        "@id": "node/206392665",
+        "addr:city": "Schiedam",
+        "addr:country": "NL",
+        "addr:housenumber": "2",
+        "addr:street": "Vlietlandplein",
+        "amenity": "hospital",
+        "name": "Vlietland ziekenhuis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3805074,
+          51.923297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/243319545",
+      "properties": {
+        "@id": "node/243319545",
+        "amenity": "hospital",
+        "name": "Diakonessenhuis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2621641,
+          52.0912691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/243671531",
+      "properties": {
+        "@id": "node/243671531",
+        "amenity": "hospital",
+        "created_by": "JOSM",
+        "name": "Jeroen Bosch, locatie Liduina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3209513,
+          51.5940047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/266391377",
+      "properties": {
+        "@id": "node/266391377",
+        "amenity": "hospital",
+        "created_by": "JOSM",
+        "layer": "1",
+        "name": "Diaconessenhuis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4824613,
+          52.1733593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/270706084",
+      "properties": {
+        "@id": "node/270706084",
+        "amenity": "hospital",
+        "description": "First Aid",
+        "name": "Gelderse Vallei",
+        "phone": "0318-433700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.645384,
+          52.0228555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/279230039",
+      "properties": {
+        "@id": "node/279230039",
+        "addr:city": "Amsterdam",
+        "addr:country": "NL",
+        "addr:housenumber": "121",
+        "addr:postcode": "1066 CX",
+        "addr:street": "Plesmanlaan",
+        "amenity": "hospital",
+        "name": "Antoni van Leeuwenhoek Ziekenhuis",
+        "short_name": "AVL",
+        "website": "http://www.nki.nl/Ziekenhuis",
+        "wheelchair": "yes",
+        "wikipedia": "nl:Antoni van Leeuwenhoek Ziekenhuis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8255487,
+          52.3497107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/288158773",
+      "properties": {
+        "@id": "node/288158773",
+        "amenity": "hospital",
+        "name": "Ziekenhuis St. Jansdal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6160188,
+          52.3421684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/290952527",
+      "properties": {
+        "@id": "node/290952527",
+        "addr:city": "Rotterdam",
+        "addr:housenumber": "2",
+        "addr:postcode": "3011TD",
+        "addr:street": "Haringvliet",
+        "amenity": "hospital",
+        "name": "Havenziekenhuis",
+        "phone": "010 - 404 33 00",
+        "source": "BAG",
+        "source:date": "2013-11-26",
+        "website": "havenziekenhuis.nl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4977007,
+          51.9203334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/296022671",
+      "properties": {
+        "@id": "node/296022671",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "ZorgSaam Ziekenhuis - De Honte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8600745,
+          51.3091752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/300467868",
+      "properties": {
+        "@id": "node/300467868",
+        "amenity": "hospital",
+        "description": "Spoedeisend hulp van OLVG",
+        "description:en": "A&E/Emergency ward of OLVG hospital",
+        "emergency": "yes",
+        "name": "spoedeisende hulp",
+        "name:en": "emergency department"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9150034,
+          52.3583623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/303727322",
+      "properties": {
+        "@id": "node/303727322",
+        "amenity": "hospital",
+        "name": "Vrije Universiteit Medisch Centrum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8594652,
+          52.3346048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/311375862",
+      "properties": {
+        "@id": "node/311375862",
+        "amenity": "hospital",
+        "name": "Rijnland Ziekenhuis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.5418625,
+          52.1568473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/330801873",
+      "properties": {
+        "@id": "node/330801873",
+        "amenity": "hospital",
+        "name": "Pantaleon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9712854,
+          51.3292063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/331198181",
+      "properties": {
+        "@id": "node/331198181",
+        "addr:housenumber": "130",
+        "addr:postcode": "5801CE",
+        "addr:street": "Merseloseweg",
+        "amenity": "hospital",
+        "name": "VieCuri Medisch Centrum locatie Venray",
+        "phone": "+31478522222"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9594751,
+          51.527238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/385105883",
+      "properties": {
+        "@id": "node/385105883",
+        "addr:city": "Utrecht",
+        "addr:housenumber": "119",
+        "addr:postcode": "3512PG",
+        "addr:street": "Lange Nieuwstraat",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Willem Arntsz Huis",
+        "source": "BAG",
+        "source:date": "2014-02-11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1249119,
+          52.0845865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/431169877",
+      "properties": {
+        "@id": "node/431169877",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Gezondheidscentrum de Heikant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3931938,
+          51.4275106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/459733556",
+      "properties": {
+        "@id": "node/459733556",
+        "amenity": "hospital",
+        "name": "Tergooiziekenhuis locatie Blaricum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2077665,
+          52.2675799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/495216888",
+      "properties": {
+        "@id": "node/495216888",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Meander Medisch Centrum Baarn",
+        "note": "No emergency facilities",
+        "source": "http://www.meandermedischcentrum.nl/patienten/afdelingen-specialismen/spoedeisende-hulp?steID=1&catID=917"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2768616,
+          52.2146645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/540043569",
+      "properties": {
+        "@id": "node/540043569",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "extra": "Decompression Chamber",
+        "name": "San Francisco Hospital",
+        "note": "Decompression chamber"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.2751827,
+          12.1537713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/543877851",
+      "properties": {
+        "@id": "node/543877851",
+        "amenity": "hospital",
+        "description": "medisch centrum parkstad",
+        "emergency": "yes",
+        "name": "Atrium",
+        "url": "http://www.atriummc.nl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9773813,
+          50.8688621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/595303859",
+      "properties": {
+        "@id": "node/595303859",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Admiraal De Ruyter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.9068536,
+          51.484725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/602319167",
+      "properties": {
+        "@id": "node/602319167",
+        "addr:city": "Breda",
+        "addr:country": "NL",
+        "addr:housenumber": "75",
+        "addr:postcode": "4819 EV",
+        "addr:street": "Langendijk",
+        "amenity": "hospital",
+        "name": "Amphia Ziekenhuis, Locatie Langedijk",
+        "source": "local knowledge",
+        "website": "http://www.amphia.nl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7626676,
+          51.5742991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/602319171",
+      "properties": {
+        "@id": "node/602319171",
+        "addr:city": "Rotterdam",
+        "addr:country": "NL",
+        "addr:housenumber": "180",
+        "addr:postcode": "3011 BH",
+        "addr:street": "Schiedamse Vest",
+        "amenity": "hospital",
+        "name": "Het Oogziekenhuis Rotterdam",
+        "name:en": "The Rotterdam Eye Hospital",
+        "source": "local knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4802695,
+          51.9150945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/603495578",
+      "properties": {
+        "@id": "node/603495578",
+        "amenity": "hospital",
+        "name": "Zorgcentrum Goverwelle",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7428087,
+          52.0117659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/616047577",
+      "properties": {
+        "@id": "node/616047577",
+        "amenity": "hospital",
+        "name": "Refaja Ziekenhuis",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9352769,
+          53.0020887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/619123748",
+      "properties": {
+        "@id": "node/619123748",
+        "addr:city": "Hilversum",
+        "addr:country": "NL",
+        "addr:housenumber": "76",
+        "addr:postcode": "1217ET",
+        "addr:street": "'s-Gravelandseweg",
+        "amenity": "hospital",
+        "atm": "yes",
+        "emergency": "no",
+        "name": "Oogziekenhuis Zonnestraal",
+        "operator": "Rabobank Hilversum-Vecht en Plassen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1649228,
+          52.2293279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/620993960",
+      "properties": {
+        "@id": "node/620993960",
+        "amenity": "hospital",
+        "name": "TweeSteden ziekenhuis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0603013,
+          51.5772466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/656208042",
+      "properties": {
+        "@id": "node/656208042",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "ZGT Almelo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6399268,
+          52.3368283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/663083281",
+      "properties": {
+        "@id": "node/663083281",
+        "amenity": "hospital",
+        "name": "ZGT Hengelo",
+        "old_name": "Streekziekenhuis Midden Twente",
+        "operator": "Ziekenhuisgroep Twente"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.770632,
+          52.263175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/665314907",
+      "properties": {
+        "@id": "node/665314907",
+        "amenity": "hospital",
+        "name": "Ambulancepost"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7177189,
+          51.9293319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/671690479",
+      "properties": {
+        "@id": "node/671690479",
+        "amenity": "hospital",
+        "name": "Parnassia psycho-medisch centrum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2095193,
+          52.0453777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/677663184",
+      "properties": {
+        "@id": "node/677663184",
+        "amenity": "hospital",
+        "name": "Sophia revalidatie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2678211,
+          52.0410668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/707014598",
+      "properties": {
+        "@id": "node/707014598",
+        "addr:housenumber": "1",
+        "addr:street": "Balistraat",
+        "amenity": "hospital",
+        "name": "Gezondheidscentrum De Compagnie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2992175,
+          52.4012648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/847650889",
+      "properties": {
+        "@id": "node/847650889",
+        "amenity": "hospital",
+        "name": "Medisch Centrum \"De Boei\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4189002,
+          51.9186047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/855681995",
+      "properties": {
+        "@id": "node/855681995",
+        "amenity": "hospital",
+        "name": "Medimere stad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1884385,
+          52.3675454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/857721692",
+      "properties": {
+        "@id": "node/857721692",
+        "amenity": "hospital",
+        "name": "Van Weel-Bethesda Ziekenhuis",
+        "website": "http://www.vanweelbethesda.nl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.1019543,
+          51.7501217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/904128437",
+      "properties": {
+        "@id": "node/904128437",
+        "amenity": "hospital",
+        "name": "Atrium MC Kerkrade"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0604609,
+          50.8663812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1014928456",
+      "properties": {
+        "@id": "node/1014928456",
+        "amenity": "hospital",
+        "name": "Veldwijk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6176678,
+          52.3029515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1243338711",
+      "properties": {
+        "@id": "node/1243338711",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Maasziekenhuis",
+        "phone": "+31 485 845000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9404937,
+          51.6635214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1243726327",
+      "properties": {
+        "@id": "node/1243726327",
+        "addr:housenumber": "7",
+        "addr:postcode": "5223 GZ",
+        "addr:street": "Henri Dunantstraat",
+        "amenity": "hospital",
+        "name": "Revalidatiecentrum Tolbrug",
+        "website": "http://www.tolbrug.nl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2775702,
+          51.6843276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1243726330",
+      "properties": {
+        "@id": "node/1243726330",
+        "amenity": "hospital",
+        "name": "Regionaal GGZ Centrum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2747149,
+          51.6846696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1256628040",
+      "properties": {
+        "@id": "node/1256628040",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Stichting Kalorama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9220118,
+          51.8259779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1261829394",
+      "properties": {
+        "@id": "node/1261829394",
+        "amenity": "hospital",
+        "name": "Polikliniek Oogheelkunde Catharinaziekenhuis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4809965,
+          51.4576138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1318830892",
+      "properties": {
+        "@id": "node/1318830892",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1360856,
+          51.3737214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1334476918",
+      "properties": {
+        "@id": "node/1334476918",
+        "amenity": "hospital",
+        "name": "Huisarts"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.476981,
+          51.8259686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1424678409",
+      "properties": {
+        "@id": "node/1424678409",
+        "addr:city": "Berkel en Rodenrijs",
+        "addr:country": "NL",
+        "addr:housenumber": "19",
+        "addr:street": "Boerhaavestraat",
+        "amenity": "hospital",
+        "name": "Poli St. Franciscus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4743198,
+          51.9966409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1543962912",
+      "properties": {
+        "@id": "node/1543962912",
+        "amenity": "hospital",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7363557,
+          52.8843883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1555758552",
+      "properties": {
+        "@id": "node/1555758552",
+        "amenity": "hospital",
+        "name": "De Hoop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7198699,
+          51.7940452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1563670019",
+      "properties": {
+        "@id": "node/1563670019",
+        "addr:city": "Emmeloord",
+        "addr:housename": "St. Antonius Ziekenhuis Emmeloord",
+        "addr:housenumber": "4",
+        "addr:postcode": "8303 BX",
+        "addr:street": "Urkerweg",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "St. Antonius Ziekenhuis Emmeloord",
+        "phone": "(+31)527620460",
+        "website": "http://www.mijnantonius.nl",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7338367,
+          52.7035222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1567277006",
+      "properties": {
+        "@id": "node/1567277006",
+        "amenity": "hospital",
+        "name": "Doctor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3878753,
+          51.5056446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1599898060",
+      "properties": {
+        "@id": "node/1599898060",
+        "amenity": "hospital",
+        "designation": "kinderziekenhuis",
+        "emergency": "yes",
+        "name": "Erasmus MC - Sophia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4696227,
+          51.9122025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1634111940",
+      "properties": {
+        "@id": "node/1634111940",
+        "amenity": "hospital",
+        "name": "Huisartsenpraktijk en Apotheek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8365739,
+          53.091815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1641728235",
+      "properties": {
+        "@id": "node/1641728235",
+        "amenity": "hospital",
+        "name": "DAP Dierenkliniek Vinkeveen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9335201,
+          52.2183465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1641768957",
+      "properties": {
+        "@id": "node/1641768957",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Centraal Militair Hospitaal",
+        "source": "Ministerie van Defensie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1772941,
+          52.0873153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1642476520",
+      "properties": {
+        "@id": "node/1642476520",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0667613,
+          53.2959987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1642476536",
+      "properties": {
+        "@id": "node/1642476536",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0750842,
+          53.298049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1658304952",
+      "properties": {
+        "@id": "node/1658304952",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Poli Zuid - Rijnstate",
+        "source": "local_knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8846024,
+          51.9492087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1696735007",
+      "properties": {
+        "@id": "node/1696735007",
+        "amenity": "hospital",
+        "name": "Verloskundige Praktijk Becca",
+        "website": "http://www.verloskundigepraktijkbecca.nl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7992694,
+          50.9400318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1697378206",
+      "properties": {
+        "@id": "node/1697378206",
+        "amenity": "hospital",
+        "name": "Huisartsenpraktijk Proosdijveld"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7926287,
+          50.9409362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1697383992",
+      "properties": {
+        "@id": "node/1697383992",
+        "amenity": "hospital",
+        "name": "Huisartsenpraktijk Beek Centrum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7970114,
+          50.9403311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1724006039",
+      "properties": {
+        "@id": "node/1724006039",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Admiraal De Ruyter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.9286712,
+          51.6564964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1742732822",
+      "properties": {
+        "@id": "node/1742732822",
+        "addr:city": "Grevenbicht",
+        "addr:country": "NL",
+        "addr:housenumber": "6",
+        "addr:postcode": "6127 CC",
+        "addr:street": "Heilig Kruisstraat",
+        "amenity": "hospital",
+        "name": "Verloskundigenpraktijk Grevenbicht e.o.",
+        "website": "http://www.grebi.nl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7681733,
+          51.0401643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1754700850",
+      "properties": {
+        "@id": "node/1754700850",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Fysiotherapie Gottgens Kienhuis Pfennings"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8651542,
+          51.0007981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1808112430",
+      "properties": {
+        "@id": "node/1808112430",
+        "amenity": "hospital",
+        "name": "Dierenkliniek Zeddam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2654196,
+          51.8995212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1828760882",
+      "properties": {
+        "@id": "node/1828760882",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Gezondheidscentrum Hof van Delft"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3555035,
+          52.0100248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1849998130",
+      "properties": {
+        "@id": "node/1849998130",
+        "addr:city": "Hilversum",
+        "addr:housenumber": "18",
+        "addr:postcode": "1217HA",
+        "addr:street": "Borneolaan",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Hospice Kajan",
+        "source": "BAG",
+        "source:date": "2014-05-24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1703747,
+          52.2326912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1879752829",
+      "properties": {
+        "@id": "node/1879752829",
+        "amenity": "hospital",
+        "name": "Via Sana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7786583,
+          51.687231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1885940730",
+      "properties": {
+        "@id": "node/1885940730",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Sint Jans Gasthuis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.713239,
+          51.2545132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1899009680",
+      "properties": {
+        "@id": "node/1899009680",
+        "amenity": "hospital",
+        "name": "SFG - Spoedeisende hulp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4633748,
+          51.9411779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1998975756",
+      "properties": {
+        "@id": "node/1998975756",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Goed Ridderkerk Gezondheidscentrum",
+        "note": "Buitenpolikliniek ASZ",
+        "website": "http://www.goedridderkerk.nl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6027491,
+          51.8668253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2047960772",
+      "properties": {
+        "@id": "node/2047960772",
+        "amenity": "hospital",
+        "name": "Ingang Veldwijk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6100196,
+          52.3051535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2049640900",
+      "properties": {
+        "@id": "node/2049640900",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Polikliniek Groene Hart Ziekenhuis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6180503,
+          51.9670796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2185611324",
+      "properties": {
+        "@id": "node/2185611324",
+        "amenity": "hospital",
+        "name": "Huisartsenprackijk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9074852,
+          52.7462246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2199724264",
+      "properties": {
+        "@id": "node/2199724264",
+        "amenity": "hospital",
+        "name": "GGD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.89107,
+          52.2187668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2283860259",
+      "properties": {
+        "@id": "node/2283860259",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Ziekenhuis velp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9765299,
+          51.9861552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2293576736",
+      "properties": {
+        "@id": "node/2293576736",
+        "amenity": "hospital",
+        "name": "Röpcke-Zweers Ziekenhuis",
+        "operator": "Saxenburgh Groep"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6323166,
+          52.5723616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2311294152",
+      "properties": {
+        "@id": "node/2311294152",
+        "addr:street": "Patriottenlaan",
+        "amenity": "hospital",
+        "name": "Dental Clinics",
+        "shop": "dry_cleaning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1104162,
+          52.4824566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2311294163",
+      "properties": {
+        "@id": "node/2311294163",
+        "addr:street": "Patriottenlaan",
+        "amenity": "hospital",
+        "name": "Fysio",
+        "shop": "dry_cleaning"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1105626,
+          52.4825313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2338574213",
+      "properties": {
+        "@id": "node/2338574213",
+        "amenity": "hospital",
+        "name": "First aid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0495298,
+          51.6516564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2362997113",
+      "properties": {
+        "@id": "node/2362997113",
+        "amenity": "hospital",
+        "name": "Weezenlanden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0996168,
+          52.5090383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2369224940",
+      "properties": {
+        "@id": "node/2369224940",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.5001409,
+          51.8486043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2374301010",
+      "properties": {
+        "@id": "node/2374301010",
+        "amenity": "hospital",
+        "name": "Huisarts Hartendorp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6924223,
+          52.7069392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2493156086",
+      "properties": {
+        "@id": "node/2493156086",
+        "addr:city": "Wijk bij Duurstede",
+        "addr:housenumber": "123",
+        "addr:postcode": "3962BP",
+        "addr:street": "Birkastraat",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "HAP Voorwijk",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "phone": "0343 574389",
+        "website": "http://praktijkvoorwijk.nl/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.337821,
+          51.9809086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2509643682",
+      "properties": {
+        "@id": "node/2509643682",
+        "alt_name": "UMCN; Radboudumc",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Radboud universitair medisch centrum",
+        "note": "Is deze manier van meerdere namen taggen correct?",
+        "old_name": "Academisch Ziekenhuis Nijmegen; AZN;",
+        "website": "http://www.umcn.nl",
+        "wikipedia": "nl:Radboudumc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8598624,
+          51.8237099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2522218039",
+      "properties": {
+        "@id": "node/2522218039",
+        "addr:city": "Heythuysen",
+        "addr:country": "NL",
+        "addr:housenumber": "2",
+        "addr:postcode": "6093",
+        "addr:street": "Notaris Ruttenlaan",
+        "amenity": "hospital",
+        "healthcare": "doctor",
+        "healthcare:speciality": "general",
+        "name": "Huisartsenpraktijk Heitse",
+        "phone": "0475-491850",
+        "website": "http://www.huisartsenpraktijkheitse.nl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8937956,
+          51.2483687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2590973431",
+      "properties": {
+        "@id": "node/2590973431",
+        "addr:city": "Almere-Haven",
+        "addr:housenumber": "70",
+        "addr:street": "Stadswerf",
+        "amenity": "hospital",
+        "name": "Dierenkliniek Almere-Haven"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2188605,
+          52.3377967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2590983432",
+      "properties": {
+        "@id": "node/2590983432",
+        "addr:city": "Almere-Haven",
+        "addr:street": "Schoolstraat",
+        "amenity": "hospital",
+        "name": "Gezondheidscentrum De Haak",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2194059,
+          52.336941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2591016337",
+      "properties": {
+        "@id": "node/2591016337",
+        "addr:city": "Almere-Haven",
+        "addr:street": "Nieuwstraat",
+        "amenity": "hospital",
+        "name": "Tandartspraktijk De Waterval"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2160178,
+          52.3354045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2591291472",
+      "properties": {
+        "@id": "node/2591291472",
+        "addr:city": "Almere-Haven",
+        "addr:street": "Houtstraat",
+        "amenity": "hospital",
+        "name": "Het dierenpunt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2165312,
+          52.3348239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2591468535",
+      "properties": {
+        "@id": "node/2591468535",
+        "addr:city": "Almere-Haven",
+        "addr:street": "Kerkstraat",
+        "amenity": "hospital",
+        "name": "Huisartsenpraktijk Haven"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.221513,
+          52.3352286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2591473094",
+      "properties": {
+        "@id": "node/2591473094",
+        "addr:city": "Almere-Haven",
+        "addr:street": "Sluis",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Stichting Opkikker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2219308,
+          52.334919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2592797666",
+      "properties": {
+        "@id": "node/2592797666",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Eerste Hulp & Spoedpost"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2243009,
+          52.3693433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2593809903",
+      "properties": {
+        "@id": "node/2593809903",
+        "addr:city": "Almere",
+        "addr:street": "Achterwerf",
+        "amenity": "hospital",
+        "name": "Verloskundige Praktijk De Eerste Stap - Haven"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2273959,
+          52.3342215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2593809907",
+      "properties": {
+        "@id": "node/2593809907",
+        "addr:city": "Almere",
+        "addr:street": "Achterwerf",
+        "amenity": "hospital",
+        "name": "Achterwerf Tandartsen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2280075,
+          52.3342674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2610980062",
+      "properties": {
+        "@id": "node/2610980062",
+        "amenity": "hospital",
+        "name": "Dierenkliniek Beter Dier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1836483,
+          52.3627767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2616212657",
+      "properties": {
+        "@id": "node/2616212657",
+        "amenity": "hospital",
+        "name": "woonzorgcentrum de Pol voorheen Zilverschoon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4938643,
+          52.2299892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2618355224",
+      "properties": {
+        "@id": "node/2618355224",
+        "addr:city": "Zeddam",
+        "addr:housenumber": "12",
+        "addr:postcode": "7038AD",
+        "addr:street": "Wittejufferstraat",
+        "amenity": "hospital",
+        "name": "Acupunctuur \"Biao Ben\"Trudi Schlaghecke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2594354,
+          51.8992524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2625157937",
+      "properties": {
+        "@id": "node/2625157937",
+        "addr:city": "Emmeloord",
+        "addr:housename": "De Schakel",
+        "addr:housenumber": "1",
+        "addr:postcode": "8303 BX",
+        "addr:street": "Urkerweg",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Verpleeghuisdependance De Schakel",
+        "phone": "(+31)527637680",
+        "website": "http://www.zorggroep-onl.nl/main.asp?pid=513"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7447857,
+          52.7072554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2664228598",
+      "properties": {
+        "@id": "node/2664228598",
+        "amenity": "hospital",
+        "name": "PCS Dierenartsenpraktijk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2483956,
+          52.4130838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2719213291",
+      "properties": {
+        "@id": "node/2719213291",
+        "addr:city": "Emmeloord",
+        "addr:housename": "Medish Centrum Emmloord",
+        "addr:housenumber": "1",
+        "addr:postcode": "8303BX",
+        "addr:street": "Urkerweg",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "M.C. Emmloord",
+        "source": "BAG",
+        "source:date": "2014-02-11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7441352,
+          52.7074262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2736316635",
+      "properties": {
+        "@id": "node/2736316635",
+        "addr:city": "Zaltbommel",
+        "addr:housenumber": "11i",
+        "addr:postcode": "5301PA",
+        "addr:street": "van Heemstraweg-west",
+        "amenity": "hospital",
+        "healthcare": "center",
+        "healthcare:speciality": "general",
+        "name": "Huisartsenpraktijk",
+        "source": "BAG",
+        "source:date": "2014-02-11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2532817,
+          51.8028497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2740073941",
+      "properties": {
+        "@id": "node/2740073941",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Diaconessenhuis Meppel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.216973,
+          52.6906034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2756936050",
+      "properties": {
+        "@id": "node/2756936050",
+        "addr:city": "Nederhemert",
+        "addr:housenumber": "23",
+        "addr:postcode": "5317NH",
+        "addr:street": "Boterbloemstraat",
+        "amenity": "hospital",
+        "name": "Gezondheidscentrum Nederhemert",
+        "source": "BAG",
+        "source:date": "2014-03-24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1647296,
+          51.7668605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2773240469",
+      "properties": {
+        "@id": "node/2773240469",
+        "amenity": "hospital",
+        "designation": "APZ",
+        "emergency": "no",
+        "name": "APZ Het Kasperspad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.673461,
+          51.812005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2774941337",
+      "properties": {
+        "@id": "node/2774941337",
+        "amenity": "hospital",
+        "name": "Albert Schweitzer Ziekenhuis, loc. Amstelwijck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6530816,
+          51.7817261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2779117703",
+      "properties": {
+        "@id": "node/2779117703",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Albert Schweitzer Ziekenhuis, loc. Dordwijk",
+        "phone": "(078) 654 11 11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6824525,
+          51.7921023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2779117706",
+      "properties": {
+        "@id": "node/2779117706",
+        "amenity": "hospital",
+        "name": "DG&J-ZHZ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6801688,
+          51.7915059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2779124508",
+      "properties": {
+        "@id": "node/2779124508",
+        "amenity": "hospital",
+        "name": "JPC De Kreek",
+        "social_facility:for": "mental_health"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6867233,
+          51.7908896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2791260090",
+      "properties": {
+        "@id": "node/2791260090",
+        "amenity": "hospital",
+        "name": "U-center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8985883,
+          50.7727907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2792343805",
+      "properties": {
+        "@id": "node/2792343805",
+        "addr:city": "Amstelveen",
+        "addr:housenumber": "414",
+        "addr:postcode": "1181BT",
+        "addr:street": "Amsterdamseweg",
+        "amenity": "hospital",
+        "name": "ATAL",
+        "source": "BAG",
+        "source:date": "2014-03-24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8573054,
+          52.316186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2798755225",
+      "properties": {
+        "@id": "node/2798755225",
+        "addr:city": "Maastricht",
+        "addr:housenumber": "25",
+        "addr:street": "P. Debyelaan",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Academisch Ziekenhuis Maastricht"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7144645,
+          50.835187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2801555310",
+      "properties": {
+        "@id": "node/2801555310",
+        "addr:city": "Winterswijk",
+        "addr:housenumber": "1",
+        "addr:postcode": "7101BN",
+        "addr:street": "Beatrixpark",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Streekziekenhuis Koningin Beatrix",
+        "source": "BAG",
+        "source:date": "2014-03-24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7016712,
+          51.9785184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2809135948",
+      "properties": {
+        "@id": "node/2809135948",
+        "addr:city": "Amstelveen",
+        "addr:housenumber": "130",
+        "addr:postcode": "1186PJ",
+        "addr:street": "Marne",
+        "amenity": "hospital",
+        "name": "Gezondheidscentrum Marne",
+        "source": "3dShapes",
+        "source:date": "2014-03-24",
+        "website": "https://www.gcmarne.nl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8640257,
+          52.2848627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2809170823",
+      "properties": {
+        "@id": "node/2809170823",
+        "addr:city": "Amstelveen",
+        "addr:housenumber": "8",
+        "addr:postcode": "1186AM",
+        "addr:street": "Laan van de Helende Meesters",
+        "amenity": "hospital",
+        "name": "Ziekenhuis Amstelland",
+        "source": "BAG",
+        "source:date": "2014-03-24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8733491,
+          52.2934812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2824741335",
+      "properties": {
+        "@id": "node/2824741335",
+        "amenity": "hospital",
+        "name": "Apotheek en Gezondheidscentrum Veldhuizen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6434572,
+          52.0429435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2852063052",
+      "properties": {
+        "@id": "node/2852063052",
+        "addr:city": "Nijmegen",
+        "addr:housenumber": "100",
+        "addr:postcode": "6532SZ",
+        "addr:street": "Weg door Jonkerbos",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Canisius-Wilhelmina (CWZ)",
+        "source": "BAG",
+        "source:date": "2014-05-07"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8312104,
+          51.8173151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2925986900",
+      "properties": {
+        "@id": "node/2925986900",
+        "addr:city": "Winschoten",
+        "addr:housenumber": "18",
+        "addr:postcode": "9671CX",
+        "addr:street": "Gassingel",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Ommelander Ziekenhuis Groep locatie Lucas",
+        "source": "BAG",
+        "source:date": "2014-06-15",
+        "website": "http://www.ozg.nl/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0367074,
+          53.1461161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3020112095",
+      "properties": {
+        "@id": "node/3020112095",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Ziekenhuis rivierenland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4149697,
+          51.889891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3042024357",
+      "properties": {
+        "@id": "node/3042024357",
+        "amenity": "hospital",
+        "name": "Wilhelmina Kinderziekenhuis (WKZ)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1812422,
+          52.0896365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3042084628",
+      "properties": {
+        "@id": "node/3042084628",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Universitair Medisch Centrum Utrecht"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1800855,
+          52.0863359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3043787575",
+      "properties": {
+        "@id": "node/3043787575",
+        "addr:city": "Utrecht",
+        "addr:housenumber": "6",
+        "addr:postcode": "3562CN",
+        "addr:street": "Neckardreef",
+        "amenity": "hospital",
+        "contact:phone": "+31 88 320 30 07",
+        "emergency": "no",
+        "fixme": "Exacte locatie is ergens bij Tamarinde",
+        "name": "St Antonius Polikliniek Utrecht Overvecht",
+        "source": "BAG",
+        "source:date": "2014-08-25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1226383,
+          52.1147779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3043834037",
+      "properties": {
+        "@id": "node/3043834037",
+        "addr:city": "Utrecht",
+        "addr:housenumber": "1",
+        "addr:postcode": "3561EJ",
+        "addr:street": "Kastordreef",
+        "amenity": "hospital",
+        "name": "Huisartsenpraktijk Overvecht",
+        "source": "BAG",
+        "source:date": "2014-08-25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1308445,
+          52.1138701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3064607200",
+      "properties": {
+        "@id": "node/3064607200",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Medisch Centrum Leeuwarden",
+        "source": "3dShapes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8023871,
+          53.190499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3145968889",
+      "properties": {
+        "@id": "node/3145968889",
+        "addr:city": "Coevorden",
+        "addr:housenumber": "1",
+        "addr:postcode": "7741GB",
+        "addr:street": "Meindert vd Thijnensngl",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Aleida Kramer Dagziekenhuis",
+        "phone": "+31524526000",
+        "website": "http://www.sxb.nl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7426736,
+          52.6633255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3204889889",
+      "properties": {
+        "@id": "node/3204889889",
+        "amenity": "hospital",
+        "name": "Kajuit en Anker Dagbehandeling"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1811144,
+          52.0877397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3204889890",
+      "properties": {
+        "@id": "node/3204889890",
+        "amenity": "hospital",
+        "name": "Radiotherapie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1824335,
+          52.086883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3220225008",
+      "properties": {
+        "@id": "node/3220225008",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.5001406,
+          52.16097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3299294573",
+      "properties": {
+        "@id": "node/3299294573",
+        "amenity": "hospital",
+        "name": "Gezondheidscentrum Velperpoort",
+        "note": "healthcare centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8881619,
+          52.216609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3391776933",
+      "properties": {
+        "@id": "node/3391776933",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Maasstad Ziekenhuis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.5348848,
+          51.8796007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3392134534",
+      "properties": {
+        "@id": "node/3392134534",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2061263,
+          52.2677056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3431864488",
+      "properties": {
+        "@id": "node/3431864488",
+        "addr:city": "Groningen",
+        "addr:housenumber": "1",
+        "addr:postcode": "9700 RB",
+        "addr:street": "Hanzeplein",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "UMCG Groningen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5769957,
+          53.2210615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3439388393",
+      "properties": {
+        "@id": "node/3439388393",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Lange Land Zieknhuis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4994508,
+          52.0688426
+        ]
+      }
+    }
+  ]
+}

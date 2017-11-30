@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.37.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.37.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0;font-family: Verdana, Arial, sans; overflow: hidden;}
+        section {
+            padding:  25px 50px;
+            line-height: 25px;
+            border-bottom: 1px solid #ddd;
+            opacity: 0.25;
+            font-size: 13px;
+        }
+        section.active {
+           opacity: 1;
+        }
+        #container { position: absolute; left: 50%; top: 0; height:100%; width: 50%; bottom: 0;}
+        #title {position: absolute; left:0; width:100%; top: 0; height: 3em;text-align:center;}
+        #story {position:absolute;left:0;width:100%;top:3em;padding:5px;height:100%;overflow-y:scroll;}
+        #map { position:absolute; top:0; bottom: 100pt; width:50%; }
+        .shadow {-webkit-box-shadow: -2px 0px 2px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow:-2px 0px 2px 0px rgba(50, 50, 50, 0.75);box-shadow:-2px 0px 2px 0px rgba(50, 50, 50, 0.75);}
+        #menu {
+            position: absolute;
+            background: #fff;
+            padding: 10px;                        
+            display: none;
+            width: 50%;
+            font-size: 13px;
+
+        }
+        #info { position:absolute;height:100pt;bottom:0;width:50%;font-size:8pt;}
+        #info table {border-collapse: collapse; width: 100%;}
+        #info table th {background-color: lightgray;}
+        #info table, #info table th, #info table td { border: 1px solid black;}
+        #spacer {height:100%;}
+	.scrollbar-measure {
+           width: 100px;
+           height: 100px;
+           overflow: scroll;
+           position: absolute;
+           top: -9999px;
+        }
+    </style>
+    <script src="mbstorymap.js"></script>
+</head>
+<body onload="init()">
+
+<div id='map'></div>
+<div id='menu'>
+    <input id='ktbasic' type='radio' name='rtoggle' value='ktbasic' checked='checked'>
+    <label for='ktbasic'>basic (klokantech)</label>
+    <input id='osmliberty' type='radio' name='rtoggle' value='osmliberty'>
+    <label for='osmliberty'>OSM liberty</label>
+    <input id='osmbright' type='radio' name='rtoggle' value='osmbright'>
+    <label for='osmbright'>OSM bright</label>
+    <input id='positron' type='radio' name='rtoggle' value='positron' checked>
+    <label for='positron'>positron</label>
+    <input id='positroncolor' type='radio' name='rtoggle' value='positroncolor'>
+    <label for='positroncolor'>positroncolor</label>
+    <input id='darkmatter' type='radio' name='rtoggle' value='darkmatter'>
+    <label for='darkmatter'>dark matter</label>
+    <input id='dark' type='radio' name='rtoggle' value='dark'>
+    <label for='dark'>dark</label>
+    <input id='klokantech3d' type='radio' name='rtoggle' value='klokantech3d'>
+    <label for='klokantech3d'>klokantech 3D</label>
+</div>
+<div id='info'></div>
+<div id='container' class="shadow">
+<div id='title'><h3>MapBox Vector Tiles</h3></div>
+<div id='story'>
+    <section id="intro" class="active">
+    <h3>Intro</h3>
+    De kaart links is door de browser getekend. De kaart is gekanteld, maar veel labels staan horizontaal.
+    <p>
+    Je kunt de kaart in- en uitzoomen met twee vingers of het muiswieltje.
+    </p>
+    <p>De kaart roteren kan met je vingers of houd de CTRL toets ingedrukt terwijl je met de muis aan de kaart trekt. Punt-labels blijven horizontaal staan.
+    </p>
+    Scroll deze tekst omlaag voor de volgende kaart.
+    </section>
+
+    <section id="setstyle">
+        <h3>Stijlen</h3>
+        Omdat de kaart door de browser getekend wordt, kun je dezelfde data op verschillende manieren weergeven.
+        De vectordata van deze kaart staat op een server van Geodan en heeft de volgende kaartlagen:
+        <ul>
+            <li>water (vlakken)</li>
+            <li>waterway (lijnen)</li>
+            <li>landcover (vlakken)</li>
+            <li>landuse (vlakken)</li>
+            <li>park (vlakken)</li>
+            <li>boundary (lijnen)</li>
+            <li>aeroway (lijnen)</li>
+            <li>transportation (lijnen)</li>
+            <li>building (vlakken)</li>
+            <li>water_name (punten)</li>
+            <li>transportation_name (punten)</li>
+            <li>place (punten)</li>
+            <li>housenumber (punten)</li>
+            <li>poi (punten)</li>
+        </ul>
+        Kies &eacute;&eacute;n van stijlen bovenaan de kaart voor een andere weergave. Bij sommige stijlen is bepaalde data helemaal weggelaten.
+        Huisnummers zijn hier bijvoorbeeld alleen zichtbaar in de 'basic' stijl.
+    </section>
+    <section id="data">
+        <h3>Data, attributen en stijllagen</h3>
+        Omdat de vectordata niet op de server, maar in de browser aanwezig is, kun je de gegevens ook direct
+        alfanumeriek weergeven. Als je met de muis over de kaart beweegt, wordt onder de kaart de informatie getoond van kaartgegevens onder de muispointer.
+        <p></p>
+        Deze kaart is gemaakt met MapBox-gl. In MapBox-gl is een <i>layer</i> een combinatie van een <i>source</i> en een stijlinstelling.
+        De <i>source</i> is de vectordata met bijbehorende data-attributen. Als de <i>source</i> bijvoorbeeld een kaartlaag 'transportation' bevat met attributen waarin de verschillende wegtypen worden aangeduid, dan kunnen daarvan meerderdere stijllagen worden gemaakt, bijvoorbeeld aparte stijllagen voor snelwegen, doorgaande wegen, straten, tunnels, trein- en tramrails enz.
+    </section>
+    <section id="postgismvt">
+        <h3>VectorTiles uit PostGIS</h3>
+        De vector tiles voor de kaarten uit de vorige paragrafen zijn kant en klaar <a href="https://openmaptiles.org/downloads/" target="vtdownload">gedownload</a>,
+        maar je kunt ook direct vector tiles uit bijvoorbeeld een PostGIS database genereren. Deze kaart toont alle rails uit de Geodan OSM PostGIS database die met behulp van de PostGIS (2.4 beta) functies 'ST_AsMVT()' en 'ST_AsMVTGeom()' uit de database worden gehaald.
+        Het uitvoeren van de database queries kan soms wel even duren, vooral bij grote datasets zoals de OSM. Er is daarom een NGINX cache voor PostGIS gezet zodat dezelfde tiles maar &eacute;&eacute;n keer hoeven te worden gegenereerd.
+        <p></p>
+        Deze PostGIS database heeft spoorwegen voor de hele wereld. Zo te zien zijn er nog heel wat spoorbeheerders die nog niet tot de Geodan klantenkring behoren.
+    </section>
+    <section id="geodanmaps">
+        <h3>VectorTiles en Nederlandse data</h3>
+        Geodan heeft o.a. de dataset adressen en gebouwen (agn) gemaakt op basis van de BAG van het kadaster. Verder kun je via het PDOK de kadastrale percelenkaart 
+        downloaden. In deze kaart zijn de adrespunten ingekleurd op basis van het BAG gebruiksdoel. Omdat de
+        vector data in de browser aanwezig is, kan dit worden gebruikt om bijvoorbeeld de gebouwen op te lichten op het moment dat je er met de muis overheen gaat.
+        De plaatsing van woonplaatslabels wordt door de kaartsoftware (mapbox-gl) berekend op basis van de woonplaatsvlakken. In sommige gevallen kun je daarbij zien dat de achterliggende data in tiles is ingedeeld.
+    </section>
+    <div id="spacer"></div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,375 @@
+﻿[
+{
+    "url":"http://research.geodan.nl/sites/camera/",
+    "title":"Camera Field Of View",
+    "tags":["Camera","FOV"],
+    "thumbnail":"thumbnails/cameras.gif",
+    "description":"Camera Field Of View",
+    "date":"november 2017"
+},
+{
+    "url":"http://research.geodan.nl/sites/ndw_viewer/",
+    "title":"Real-time animated NDW traffic data",
+    "tags":["NDW","Traffic", "Visualization","WebGL","Deck.GL","Arena"],
+    "thumbnail":"thumbnails/ndwviewer.gif",
+    "description":"Real-time animated NDW traffic data",
+    "date":"november 2017"
+},
+{
+    "url":"http://research.geodan.nl/sites/360Viewer/",
+    "title":"360 degree interactive content viewer for video, photo and streams",
+    "tags":["Unity","3D", "360 degree","Photo","Streams", "Video", "Upload"],
+    "thumbnail":"thumbnails/360viewer.gif",
+    "description":"360 degree interactive content viewer for video, photo and streams",
+    "date":"augustus 2017"
+},
+{
+    "url":"http://research.geodan.nl/sites/unity-cntk-azure/",
+    "title":"Real-Time AI on 3D geodata with Unity, CNTK and Azure",
+    "tags":["Unity","3D", "CNTK", "AI","Machine Learning"],
+    "thumbnail":"thumbnails/unitycntkazure.gif",
+    "description":"Real-Time AI on 3D geodata with Unity, CNTK and Azure",
+    "date":"augustus 2017"
+},
+{
+    "url":"https://youtu.be/COC0uGffbnE",
+    "title":"360 degree 3D video of Leeuwarden for AR/VR using BGT, GKN, AHN3 data",
+    "tags":["Unity","3D", "Video", "Youtube","AR","VR","Geomagine","360 degree"],
+    "thumbnail":"thumbnails/geomagine_leeuwarden.gif",
+    "description":"360 degree 3D video of Leeuwarden for AR/VR using BGT, Geodan GKN, AHN3 data",
+    "date":"augustus 2017"
+},
+{
+    "url":"https://youtu.be/NeXA7wOpZLE",
+    "title":"Finch: Indoor Navigation for visually impaired with Google Tango",
+    "tags":["Unity","3D", "Pointcloud", "Indoor Navigation","3D Audio Navigation", "Tactile Navigation", "SLAM", "Google Tango"],
+    "thumbnail":"thumbnails/finch.gif",
+    "description":"Finch: Indoor Navigation for visually impaired with Google Tango",
+    "date":"augustus 2017"
+},
+{
+    "url":"http://saturnus.geodan.nl/frans/bro/lekdijk_geotop.xhtml",
+    "title":"Basisregistratie Ondergrond in 3D",
+    "tags":["BRO","X3D"],
+    "thumbnail":"thumbnails/bro_x3dom.gif",
+    "description":"Basisregistratie Ondergrond in 3D",
+    "date":"july 2017"
+},{
+    "url":"http://research.geodan.nl/sites/demos/mbstorymap/",
+    "title":"Mapbox Vector Tiles",
+    "tags":["vector tiles","mapbox", "vector", "tiles", "storymap", "story", "map"],
+    "thumbnail":"thumbnails/mbstorymap.gif",
+    "description":"Story map explaining some virtues of vector tiles",
+    "date":"june 22 2017"
+
+},
+{
+    "url":"http://research.geodan.nl/sites/demos/geodangebouw_bgt/",
+    "title":"Geodan gebouw BIM in X3D",
+    "tags":["BIM","X3D"],
+    "thumbnail":"thumbnails/geodangebouw.gif",
+    "description":"Geodan building based on BIM model represented in X3D",
+    "date":"march 2017"
+},
+{
+    "url":"http://research.geodan.nl/sites/GeodanAI/CrowdSim/",
+    "title":"Geocraft with basic Crowd Simulation",
+    "tags":["geocraft", "Microsoft", "AI", "3D", "voxel", "unity", "agent", "minecraft", "amsterdam", "WebGL", "Crowd", "Simulation"],
+    "thumbnail":"thumbnails/crowdsim.gif",
+    "description":"Geocraft model with basic Crowd Simulation",
+    "date":"november 2016"
+},
+{
+    "url":"https://www.youtube.com/watch?v=XWgbMgKBa5I",
+    "title":"Geocraft with Hololens",
+    "tags":["geocraft", "Microsoft", "Hololens", "3D", "voxel", "minecraft", "amsterdam", "AR"],
+    "thumbnail":"thumbnails/hololens.gif",
+    "description":"Geocraft model loaded onto a Microsoft Hololens",
+    "date":"november 2016"
+},
+{
+    "url":"https://www.youtube.com/watch?v=EWIV_ggV8hI",
+    "title":"Geocause with HTC vive",
+    "tags":["geocause", "HTC vive", "3D", "Gorinchem", "VR"],
+    "thumbnail":"thumbnails/geocause.gif",
+    "description":"The HTC vive allows the user to walk through Gorinchem in 2040, through Geocause",
+    "date":"november 2016"
+},
+    {
+    "url":"https://www.youtube.com/watch?v=uuhZ0cWc2Ds",
+    "title":"City on a desk",
+    "tags":["geocraft", "project tango", "3D", "voxel", "minecraft", "amsterdam", "AR"],
+    "thumbnail":"thumbnails/tango.gif",
+    "description":"Geocraft model loaded onto a Project Tango with Unity3D to create a city on a desk",
+    "date":"november 2016"
+},
+	{
+    "url":"http://speck.ly/?s=http://metis/greyhound/&r=geocensus",
+    "title":"Pointcloud viewer",
+    "tags":["pointcloud", "greyhound"],
+    "thumbnail":"thumbnails/speckly_comp.mp4",
+    "description":"Pointcloud viewer showing capabilities of greyhound pointcloud server for large scale data, ✋ INTRANET ONLY! ✋",
+    "date":"november 2016"
+},
+{
+    "url":"http://research.geodan.nl/sites/sensordashboard",
+    "title":"Sensor Dashboard",
+    "tags":["dashboards", "sensoren", "iot", "polymer","d3","gost"],
+    "thumbnail":"thumbnails/dashboard.png",
+    "description":"Interactive dashboard showing data being collected by GOST.",
+    "date":"oktober 2016"
+},{
+    "url":"http://research.geodan.nl/sites/gmiddag_dash",
+    "title":"Geodanmiddag Dashboard",
+    "tags":["dashboards", "crossfilter", "dcjs", "d3"],
+    "thumbnail":"thumbnails/gmiddag.gif",
+    "description":"Interactive dashboard showing data collected during the Geodanmiddag 2016 event.",
+    "date":"april 2016"
+},  {
+    "url":"http://research.geodan.nl/sites/geotop/excavator",
+    "title":"GeoTOP Excavator",
+    "tags":["subsurface","geology","geotop","html5","d3"],
+    "thumbnail":"thumbnails/geotop.gif",
+    "description":"Calculate subsurface sediment volumes within a specific area. Based on the GeoTOP shallow geologic model by TNO.",
+    "date":"march 2016"
+},  
+{
+    "url":"https://www.youtube.com/watch?v=RsegTOyDJrY&list=PL8rnbSE8XDq_bto-vl44h1uECG_t98AHo",
+    "title":"Geology in Geocraft",
+    "tags":["geocraft", "geology", "3D", "voxel", "minecraft"],
+    "thumbnail":"thumbnails/dgm.gif",
+    "description":"TNO's Digital Geology Model loaded in Geocraft with semi-transparent voxels to show deep geology",
+    "date":"february 2016"
+},
+{
+    "title": "Provincies en data",
+    "url": "./provincies-data/index.html",
+    "thumbnail":"thumbnails/provincies-data.png",
+    "tags":["data","D3","Ol 3"],
+    "date":"April 2016",
+    "description":"An webapp using D3 and Open Layers 3 to show data on the map."
+},
+{
+    "url":"http://research.geodan.nl/sites/bag-tiles",
+    "title":"BAG Vector Tiles",
+    "tags":["vector tiles","mapboxgl","bag","html5","clustering"],
+    "thumbnail":"thumbnails/bagtiles.gif",
+    "description":"A viewer which shows the rendering speeds of vector-tiles with serverside clustering of 11 million buildings",
+    "date":"may 2015"
+},  {
+    "url":"http://research.geodan.nl/sites/buurten",
+    "title":"CBS Vector Tiles",
+    "tags":["vector tiles","filter","polymer","leaflet","cbs","html5"],
+    "thumbnail":"thumbnails/buurten.gif",
+    "description":"A viewer which allows for dynamic filtering on attributes using vector tiles",
+    "date":"april 2015"
+},    
+{
+        "title": "Mappu",
+        "url": "./mappu/index.html",
+	"thumbnail":"./thumbnails/mappu.gif",
+        "tags": ["mappu", "3d"],
+        "date":"march 2015",
+        "description":"A new mapping library created by Geodan",
+        "disabled":true
+},                 
+{
+	"title": "BGT 3D",
+	"url": "./bgt_3d/index.html",
+	"thumbnail":"./thumbnails/bgt3d.gif",
+	"tags": ["bgt", "3d", "webgl", "x3d"],
+	"date":"february 2015",
+	"description":"Showing the result of combining the BGT dataset of NL with pointcloud"
+},                 
+{
+	"title": "Immersive 3D",
+	"url": "https://www.youtube.com/watch?v=GNxYz2UcETM",
+	"thumbnail":"./thumbnails/immersive.gif",
+	"tags": ["falcon", "3d", "leap motion", "oculus rift","unity","video"],
+	"date":"february 2015",
+	"description":"A video showing immersive 3D with novel navigation controls"
+},                                                         
+{
+	"title": "TOP10NL 3D",
+	"url": "http://research.geodan.nl/sites/topo3d/geodan.html",
+	"thumbnail":"thumbnails/top10nl.gif",
+	"tags": ["top10nl", "3d", "webgl", "x3d"],
+	"date":"december 2014",
+	"description":"Showing the result of combining the topographic dataset of NL with pointcloud",
+	"disabled":true
+},             
+{
+	"title": "Vectortiles en topojson",
+	"url": "http://research.geodan.nl/sites/vectortiles/",
+	"tags": ["vectortiles", "d3", "topojson"],
+    "thumbnail":"thumbnails/vectortiles.gif",
+    "date":"september 2014",
+    "description":"Simple demo showing the use of vectortiles with different color schemas."
+
+}, 
+{
+    "title":"Buffer with jsts",
+    "url":"http://research.geodan.nl/sites/buffer",
+    "tags":["buffer","jsts","webgis","ol3"],
+    "thumbnail":"thumbnails/buffer.gif",
+    "date":"september 2014",
+    "description":"Simple test with ol3 & JSTS to draw a buffer around a line, point of polygon with user-set buffer size",
+    "disabled":true
+    
+},     
+{
+	"title": "Natuurbrandmodel",
+	"url": "http://model.geodan.nl/main/gmi/",
+	"thumbnail":"./thumbnails/natuurbrand.gif",
+	"tags": ["natuubrand", "geoext", "model"],
+	"date":"august 2014",
+	"description":"Interface to a forestfire model, used by firefighters ✋ AUTHORISED ONLY! ✋"
+},                                             
+{
+	"title": "Dynamic Holland Shading",
+	"url": "http://research.geodan.nl/sites/ahn",
+    "thumbnail":"thumbnails/hollandshading.gif",
+    "tags":["html5","ahn","shading","dynamic","slider","canvas"],
+    "date":"april 2014",
+    "description":"By encoding the AHN DEM in special tiles, this viewer allows for interactively show the hill shade given a specific date and time"
+},          
+{
+	"title": "Waalweelde",
+	"url": "http://research.geodan.nl/sites/waalweelde/service/",
+    "thumbnail":"thumbnails/waalweelde.gif",
+    "tags":["model","classification","vegetation","landuse","html5"],
+    "date":"february 2014",
+    "description":"Proof of concept to show how vegetation succession modelling can be utilised in river-management. It calculates the type of vegetation in 10 years for the selected area",
+    "disabled":true
+},       
+{
+    "url":"http://research.geodan.nl/sites/LODUI",
+    "title":"Cerise",
+    "tags":["d3","animation","energy","html5"],
+    "thumbnail":"thumbnails/cerise.gif",
+    "description":"Showing the per-hour energy use with the help of linked data, D3 and crossfilter", 
+    "date":"2014"
+},  
+{
+	"title": "FalconViewer",
+	"url": "http://research.geodan.nl/sites/Falcon/",
+    "thumbnail":"thumbnails/falcon.gif",
+    "tags":["unity","3d","falcon"],
+    "date":"2014",
+    "disabled":true
+},
+{
+	"title": "Websockets (COW)",
+	"url": "http://research.geodan.nl/sites/geofort-crisisworkshop/",
+    "thumbnail":"thumbnails/cow.gif",
+    "tags":["websockets","instant","communication","html5","crisis management"],
+    "date":"november 2013",
+    "description":"COW allows for instant communication through different networks by utilizing secure websockets to share location, extent, features and texts. It is used in ICM-water"
+},   
+{
+	"title": "Rochelroutes",
+	"url": "http://research.geodan.nl/sites/milieudefensie/",
+    "thumbnail":"thumbnails/milieudefensie.gif",
+    "tags":["video","ultrafijnstof","html5","gps","time","graph","canvas"],
+    "date":"august 2013",
+    "description":"Various cycle-routes through cities to show ultra-fine-dust measurements, using onboard video, GPS and measurements"
+},  
+{
+	"title": "Phoenix Multi User Map",
+	"url": "https://www.youtube.com/watch?v=DDA8jrPAPRA",
+    "thumbnail":"thumbnails/multiusermap.gif",
+    "tags":["video","phoenix","cow","multi user","websockets"],
+    "date":"januari 2013",
+    "description":"A video showing Phoenix instantly sharing features with webclients and mobile phones"
+},   
+{   
+    "title": "OV vectordata",
+	"url": "http://research.geodan.nl/sites/D3Layer/demos/ov.html",
+	"description":"Large scale aggregated OV data for the Netherlands on a map in D3",
+	"thumbnail":"thumbnails/ovdemo.gif",
+	"date":"2013",
+	"disabled":true
+},              
+{
+	"title": "AHN in Webgl",
+	"url": "http://model.geodan.nl/main/d3test/webgl1.html",
+	"thumbnail":"thumbnails/ahnview.gif",
+	"tags": ["AHN", "3d","webgl", "threejs"],
+	"date":"2013",
+	"description":"Simple demo showing a tile of AHN in webgl, draped with sat image",
+	"disabled":true
+},                         
+{
+	"title": "Bag 3D",
+	"url": "http://research.geodan.nl/sites/D3Layer/demos/bag3d.html",
+	"thumbnail":"thumbnails/bag3d.gif",
+	"tags": ["bag", "3d","webgl", "threejs"],
+	"date":"2013",
+	"description":"Simple demo showing the BAG extruded in Threejs",
+	"disabled":true
+},     
+{
+	"title": "ESPON",
+	"url": "http://espon.geodan.nl/citybench3/",
+	"thumbnail":"thumbnails/espon.gif",
+	"tags":["d3"],
+	"date": "2013",
+    "disabled":true
+},                
+{
+	"title": "Kadaster routes",
+	"url": "http://research.geodan.nl/sites/kadaster/index5.html",
+    "thumbnail": "thumbnails/kadaster-animatie.gif",
+    "tags":["html5","animation","route","vector","congress"],
+    "date":"september 2012",
+    "description":"A simple demo showing where different participants at a congress are coming from, including the route they took."
+},                                                
+{
+	"title": "Kadaster bag",
+	"url": "http://research.geodan.nl/sites/kadaster/bag2.html",
+    "thumbnail":"thumbnails/kadaster-bag.gif",
+    "tags":["vector","filtering","buildings"],
+    "date":"september 2012",
+    "description":"A simple demo that allows the user to select buildings based on their usage-type"
+},                                                 
+{
+	"title": "Phoenix: Child's play",
+	"url": "https://www.youtube.com/watch?v=cZ-wRTF_jCs",
+    "thumbnail":"thumbnails/childsplay.gif",
+    "tags":["phoenix","video","intuitive","drawing","spatial planning"],
+    "date":"august 2012",
+    "description":"The kids of a colleague came by while we were working on a movie about our spatial planning application 'Phoenix'. With hardly any guidance and no previous exposure they searched for their house, drew hearts and generally had fun."
+},                                                    
+{
+	"title": "Hoe hoog?",
+	"url": "https://research.geodan.nl/sites/hoogte/",
+    "thumbnail":"thumbnails/hoogte.jpg",
+    "tags":["ahn","mobile","nomap","geolocation"],
+    "date":"march 2012",
+    "description":"A mobile-first application to show that geo-information doesn't need maps to be useful"
+},                                                                   
+{
+	"title": "Dynamische AHN",
+	"url": "http://stvno.github.io/page/ahn",
+    "thumbnail":"thumbnails/ahn2.gif",
+    "tags":["canvas","html5","ahn","ahn2","height","slider","dynamic"],
+    "date":"february 2012",
+    "description":"By encoding the heightof the Netherlands in specific PNG-tiles, this viewer uses canvas to rapidly change the classification of the height data"
+},                                                                   
+{
+	"title": "BAG bouwjaar",
+	"url": "http://bag.edugis.nl/",
+    "thumbnail":"thumbnails/ibag.gif",
+    "tags":["canvas","html5","bag","buildings","time","slider","dynamic"],
+    "date":"january 2012",
+    "description":"By encoding the age of buildings in specific PNG-tiles, this viewer uses canvas to rapidly show the growth of cities over time"
+},                                                                   
+{
+	"title": "Tangible Cyclorama",
+	"url": "https://www.youtube.com/watch?v=CdLcTaJzTmI",
+    "thumbnail":"thumbnails/tangible.gif",
+    "tags":["surface","tangible ui","cyclorama","video"],
+    "date":"august 2009",
+    "description":"A video showing how manipulating real world objects can be translated into a 360 view of the underlying map."
+}
+]
