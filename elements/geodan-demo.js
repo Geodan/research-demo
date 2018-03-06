@@ -91,7 +91,7 @@ class GeodanDemo extends LitElement {
  
         <div class="headcontent">
             Dit zijn demonstratie sites die in de loop der tijd door Geodan Research zijn ontwikkeld. Niet alle sites zijn voor publiek gebruik en sommige hebben een login nodig. Er is geen garantie dat de sites ook altijd werken en het is niet de bedoeling dat de links zomaar worden gedeeld met een groot publiek.
-            <paper-input id="zoekVeld" value="${this.search}" label="Zoek een demo">
+            <paper-input id="zoekVeld" on-value-changed="${(e)=>this.searchChanged(e)}" label="Zoek een demo">
             </paper-input>
             <div class="subcontent">
                 
@@ -165,8 +165,7 @@ class GeodanDemo extends LitElement {
             }
         },
         search: {
-            type: String,
-            observer: 'searchChanged'
+            type: String
         }
     }
   }
@@ -180,9 +179,10 @@ class GeodanDemo extends LitElement {
       }
   }
 
-  searchChanged() {
-      var zoek =this.search;
+  searchChanged(e) {
+      var zoek =e.target.value;
       var resultaat = [];
+      let tag = '';
       for(tag in this.tags) {
           if(tag.toLowerCase().indexOf(zoek.toLowerCase())>=0) {
               var demos = this.tags[tag].demos;
