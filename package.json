@@ -1,0 +1,23 @@
+{
+  "name": "@polymer/research-demo",
+  "flat": true,
+  "version": "1.0.0",
+  "description": "geodan research demosite",
+  "contributors": [
+    "Steven M. Ottens <github@minst.net>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Geodan/research-demo",
+  "dependencies": {
+    "@polymer/app-layout": "^3.0.0-pre.1",
+    "@polymer/iron-ajax": "^3.0.0-pre.1",
+    "@polymer/paper-input": "^3.0.0-pre.1",
+    "@polymer/paper-item": "^3.0.0-pre.1",
+    "@polymer/paper-card": "^3.0.0-pre.1",
+    "@polymer/paper-menu": "^3.0.0-pre.1",
+    "@polymer/polymer": "^3.0.0-pre.1",
+    "@polymer/lit-element": "^0.1.0",
+    "leaflet": "^1.3.1"
+  },
+  "devDependencies": {}
+}

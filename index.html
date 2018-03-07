@@ -1,25 +1,31 @@
-<!DOCTYPE html>
-<html lang="nl">
+<!--
+@license geodan
+
+-->
+
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-capable" content="yes">
-    <title>Geodan Research demo's</title>
-        <!-- 1. Load webcomponents.min.js for polyfill support. -->
-    <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>   
-    <script src="bower_components/leaflet/dist/leaflet-src.js"></script>     
-    <script type="text/javascript" src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js?v1.3.0"></script> 
-    <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css" no-shim/>    
-    <link rel="import" href="elements/geodan-demo.html">
-    <link href="//fonts.googleapis.com/css?family=RobotoDraft:300,400,500|Source+Code+Pro:400,500,700" rel="stylesheet">    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <base href="/">
 
-<style>
-* {
-font-size:14px;font-family:"RobotoDraft",Helvetica,Arial,sans-serif;font-weight:300;line-height:20px
-}
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  
+  <title>Geodan Research demo's</title>
+  <meta name="theme-color" content="#ED3031">
+  <link rel="manifest" href="./manifest.json">
 
- #map {
+  <style>
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', 'Noto', sans-serif;
+      background-color: white;
+    }
+
+    #map {
         float:right;
         position: absolute;
         top:0px;
@@ -27,42 +33,45 @@ font-size:14px;font-family:"RobotoDraft",Helvetica,Arial,sans-serif;font-weight:
         left:0px;
         right:0px;
         background:white;
+        z-index: 0;
     }
-</style>
-<style shim-shadowdom>
-html /deep/   core-toolbar {
-    background:rgba(255,255,255,0.9);
-    color: black;
-}
-html /deep/   core-header-panel[main] {
-    background:rgba(255,255,255,0);
-    color: black;
-}html /deep/   div[drawer] {
-    background:rgba(255,255,255,0.6);
-    color: black;
-}
-</style>
+    geodan-demo {
+        z-index: 1;
+    }
+    
+
+  </style>
+
 </head>
-<body fullbleed layout vertical>
-<div id="map"></div>
-<geodan-demo></geodan-demo>
-<script>
-var map = L.map("map").setView([52.342, 4.91], 14);    
-        var color = new L.StamenTileLayer("watercolor",{opacity:0.3});
-        var toner = new L.StamenTileLayer("toner");
-        map.addLayer(color);
-        map.locate({setView: true, maxZoom: 16});
-        map.zoomControl.removeFrom(map);
-        </script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<body>
+    <div id="map"></div>
+    <geodan-demo unresolved></geodan-demo>
+    
 
-  ga('create', 'UA-4166194-2', 'auto');
-  ga('send', 'pageview');
+  <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  <script type="module" src="./elements/geodan-demo.js"></script>
+  <script src="./node_modules/leaflet/dist/leaflet-src.js"></script>
+  <link rel="stylesheet" href="./node_modules/leaflet/dist/leaflet.css" no-shim/>    
+  <script type="text/javascript" src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js?v1.3.0"></script> 
+  <link href="//fonts.googleapis.com/css?family=RobotoDraft:300,400,500|Source+Code+Pro:400,500,700" rel="stylesheet">    
 
-</script>
-        </body>
+  <script type="module">
+    var map = L.map("map").setView([52.342, 4.91], 14);
+    var color = new L.StamenTileLayer("watercolor",{opacity:0.3});
+    var toner = new L.StamenTileLayer("toner");
+    map.addLayer(color);
+    map.locate({setView: true, maxZoom: 16});
+    map.zoomControl.remove();
+  </script>
+  <script type="module">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-4166194-2', 'auto');
+        ga('send', 'pageview');
+  </script>
+
+</body>
 </html>
