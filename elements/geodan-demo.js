@@ -4,6 +4,7 @@ import { repeat } from '../node_modules/lit-html/lib/repeat.js';
 import '../node_modules/@polymer/iron-ajax/iron-ajax.js';
 import '../node_modules/@polymer/paper-input/paper-input.js';
 import '../node_modules/@polymer/paper-item/paper-item.js';
+import '../node_modules/@polymer/paper-item/paper-item-body.js';
 import '../node_modules/@polymer/paper-card/paper-card.js';
 import '../../node_modules/@polymer/iron-flex-layout/iron-flex-layout-classes.js';
 import '../../node_modules/@polymer/app-layout/app-drawer-layout/app-drawer-layout.js';
@@ -122,7 +123,6 @@ class GeodanDemo extends LitElement {
         border-radius: 4px;
     }
     paper-card {
-        
         perspective: 500px;
     }
     
@@ -198,19 +198,20 @@ class GeodanDemo extends LitElement {
             Dit zijn demonstratie sites die in de loop der tijd door Geodan Research zijn ontwikkeld. Niet alle sites zijn voor publiek gebruik en sommige hebben een login nodig. Er is geen garantie dat de sites ook altijd werken en het is niet de bedoeling dat de links zomaar worden gedeeld met een groot publiek.
             <paper-input id="zoekVeld" on-value-changed="${(e)=>this.searchChanged(e)}" label="Zoek een demo">
             </paper-input>
-            <div class="subcontent">
-                
+        </div>
+        <div class="subcontent">
                 ${repeat(resultaat || [], (demo) => demo.title, (demo, index) => html`
-                    <div class="tag" on-mouseover="${(e)=>this.hover(e)}}" on-mouseout="${(e)=>this.unhover(e)}">
-                        <div class="shadow">
-                            <div class="demoname"><a href="${demo.url}">${demo.title}</a></div>
-                            <div class="tags">
-                            <strong>tags:</strong> ${this.toArray(demo.tags)}</div>
-                        </div>
-                    </div>
+                <a href="${demo.url}">
+                    <paper-item class="tag">
+                        <paper-item-body two-line>
+                            <div class="demoname">${demo.title}</div>
+                            <div secondary>
+                                <strong>tags:</strong> ${this.toArray(demo.tags)}
+                            </div>
+                        </paper-item-body>
+                    </paper-item>
+                </a>
                 `)}
-                
-            </div>
         </div>
  </app-drawer>
  <app-header-layout fullbleed="">
