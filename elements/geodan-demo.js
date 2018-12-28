@@ -1,17 +1,17 @@
-import { LitElement, html } from '../node_modules/@polymer/lit-element/lit-element.js';
-import { repeat } from '../node_modules/lit-html/lib/repeat.js';
+import { LitElement, html } from '@polymer/lit-element/lit-element.js';
+import { repeat } from 'lit-html/lib/repeat.js';
 
-import '../node_modules/@polymer/iron-ajax/iron-ajax.js';
-import '../node_modules/@polymer/paper-input/paper-input.js';
-import '../node_modules/@polymer/paper-item/paper-item.js';
-import '../node_modules/@polymer/paper-item/paper-item-body.js';
-import '../node_modules/@polymer/paper-card/paper-card.js';
-import '../../node_modules/@polymer/iron-flex-layout/iron-flex-layout-classes.js';
-import '../../node_modules/@polymer/app-layout/app-drawer-layout/app-drawer-layout.js';
-import '../../node_modules/@polymer/app-layout/app-drawer/app-drawer.js';
-import '../../node_modules/@polymer/app-layout/app-header-layout/app-header-layout.js';
-import '../../node_modules/@polymer/app-layout/app-header/app-header.js';
-import '../../node_modules/@polymer/app-layout/app-toolbar/app-toolbar.js';
+import '@polymer/iron-ajax/iron-ajax.js';
+import '@polymer/paper-input/paper-input.js';
+import '@polymer/paper-item/paper-item.js';
+import '@polymer/paper-item/paper-item-body.js';
+import '@polymer/paper-card/paper-card.js';
+import '@polymer/iron-flex-layout/iron-flex-layout-classes.js';
+import '@polymer/app-layout/app-drawer-layout/app-drawer-layout.js';
+import '@polymer/app-layout/app-drawer/app-drawer.js';
+import '@polymer/app-layout/app-header-layout/app-header-layout.js';
+import '@polymer/app-layout/app-header/app-header.js';
+import '@polymer/app-layout/app-toolbar/app-toolbar.js';
 
 class GeodanDemo extends LitElement {
     render({resultaat}){

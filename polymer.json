@@ -1,0 +1,38 @@
+{
+  "npm": true,
+  "module-resolution": "node",
+  "entrypoint": "index.html",
+  "shell": "elements/geodan-demo.js",
+  "fragments": [
+    
+  ],
+  "sources": [
+    "elements/**/*",
+    "img/**/*",
+    "thumbnails/**/*"
+  ],
+  "lint": {
+    "rules": 
+      ["polymer-2-hybrid"]
+  },
+  "builds": [
+    { 
+      "name": "bundled-amd", 
+      "bundle": { 
+        "inlineScripts": false 
+      }, 
+      "js": { 
+        "transformModulesToAmd": true 
+       } 
+    },
+    {
+      "preset": "es5-bundled"
+    },
+    {
+      "preset": "es6-unbundled"
+    },
+    {
+      "preset": "es6-bundled"
+    }
+  ]
+}
